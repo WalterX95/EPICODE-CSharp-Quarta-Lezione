@@ -27,8 +27,8 @@ while(Operation)
             Console.WriteLine("LogOut Effettuato !");
             break;
         case "3":
-            Console.WriteLine("Accesso al File Di Log Dati");
-            Utente.ListaAccessi();
+            Console.WriteLine("Login Accesso...");
+            Utente.StampaOraEData();
             break;
         case "4":
             Console.WriteLine("Accesso al File Di Log Dati");

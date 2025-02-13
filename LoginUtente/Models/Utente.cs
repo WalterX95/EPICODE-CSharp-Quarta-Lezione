@@ -23,7 +23,9 @@ namespace LoginUtente.Models
             {
                 if(myUser != user || myPassword != user)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Username Non Corretto, Riprova per favore");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
                 else
                 {
@@ -55,6 +57,11 @@ namespace LoginUtente.Models
             {
                 Console.WriteLine($"Ora e Data : {accessi.ToString()}");
             }
+        }
+
+        public static void StampaOraEData() {
+            Console.WriteLine("Ora : " + Ora.ToString());
+            Console.WriteLine("Data attuale : " + DataLogin.ToString());
         }
     }
 }
