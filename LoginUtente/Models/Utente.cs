@@ -18,10 +18,10 @@ namespace LoginUtente.Models
         private static string[] DataBaseUtenti { get; set; } = { Username, Password };
 
         private static string[] DataConnessione { get; set;} = { };
-        public static string ControlUserAndLogin() {  
+        public static string ControlUserAndLogin(string myUser, string myPassword) {  
             foreach (var user in DataBaseUtenti)
             {
-                if(Username != user || Password != user)
+                if(myUser != user || myPassword != user)
                 {
                     Console.WriteLine("Username Non Corretto, Riprova per favore");
                 }

@@ -1,9 +1,7 @@
 ﻿using LoginUtente.Models;
 
-var IlMioUtente = Utente.ControlUserAndLogin();
-var SecondoUtente = Utente.ControlUserAndLogin();
-
 var Operation = true;
+var ChooseOp = "";
 
 while(Operation)
 {
@@ -16,7 +14,30 @@ while(Operation)
     Console.WriteLine("4) Lista degli accessi");
     Console.WriteLine("5) Esci");
     Console.WriteLine("============================== =======================");
-
+    ChooseOp = Console.ReadLine();
+    switch (ChooseOp) {
+        case "1":
+            Console.WriteLine("Inserisci Username");
+            string? username = Console.ReadLine();
+            Console.WriteLine("Inserisci Password");
+            string? password = Console.ReadLine();
+            Utente.ControlUserAndLogin(username,password);
+            break;
+        case "2":
+            Console.WriteLine("LogOut Effettuato !");
+            break;
+        case "3":
+            Console.WriteLine("Accesso al File Di Log Dati");
+            Utente.ListaAccessi();
+            break;
+        case "4":
+            Console.WriteLine("Accesso al File Di Log Dati");
+            Utente.ListaAccessi();
+            break;
+        default:
+            Operation = false;
+            break;
+    }
 }
 
 
