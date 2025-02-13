@@ -15,13 +15,12 @@ namespace LoginUtente.Models
         private static bool IsLogged { get; set;} = false;
         private static DateTime Ora { get; set; }
         private static DateOnly DataLogin { get; set; }
-        private static string[] DataBaseUtenti { get; set; } = { Username, Password };
+        private static string[] DataBaseUtenti { get; set; } = { "Walter", "Password" };
 
         private static string[] DataConnessione { get; set;} = { };
         public static string ControlUserAndLogin(string myUser, string myPassword) {  
-            foreach (var user in DataBaseUtenti)
-            {
-                if(myUser != user || myPassword != user)
+        
+                if(myUser != DataBaseUtenti[0] || myPassword != DataBaseUtenti[1])
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Username Non Corretto, Riprova per favore");
@@ -41,13 +40,11 @@ namespace LoginUtente.Models
                     Console.ForegroundColor = ConsoleColor.White;
                     if (IsLogged)
                     {
-                        _ = File.Create("LogFile.txt");
-                        _ = File.OpenText("LogFile.txt");
-                        _ = File.AppendText(DataLogin.ToString()+"\n");
-                        _ = File.AppendText(Ora.ToString() + "\n");
+                    string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "log.txt");
+                            File.WriteAllText(path, DataLogin.ToString()+"\n"+ Ora.ToString());
+                           
                     }
                 }
-            }
             return Username; 
         } 
 

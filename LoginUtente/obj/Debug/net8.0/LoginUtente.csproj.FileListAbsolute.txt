@@ -1,0 +1,14 @@
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\bin\Debug\net8.0\LoginUtente.exe
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\bin\Debug\net8.0\LoginUtente.deps.json
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\bin\Debug\net8.0\LoginUtente.runtimeconfig.json
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\bin\Debug\net8.0\LoginUtente.dll
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\bin\Debug\net8.0\LoginUtente.pdb
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\LoginUtente.GeneratedMSBuildEditorConfig.editorconfig
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\LoginUtente.AssemblyInfoInputs.cache
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\LoginUtente.AssemblyInfo.cs
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\LoginUtente.csproj.CoreCompileInputs.cache
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\LoginUtente.dll
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\refint\LoginUtente.dll
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\LoginUtente.pdb
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\LoginUtente.genruntimeconfig.cache
+D:\AssistProject\EPICODE\C#-Microsofto VS2022\QuartaLezione\LoginUtente\LoginUtente\obj\Debug\net8.0\ref\LoginUtente.dll
